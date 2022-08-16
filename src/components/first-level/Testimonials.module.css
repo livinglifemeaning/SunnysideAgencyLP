@@ -1,0 +1,57 @@
+.testimonials{
+    padding: 3rem 1.5rem; 
+}
+
+.testimonials h3{
+    font-family: var(--f-Fraunces); 
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--c-medium-gray10); 
+    text-align: center; 
+    margin-bottom: 3rem; 
+}
+
+.testimonialCard{
+    text-align: center; 
+}
+
+.photo{
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    margin-bottom: 2rem;
+}
+
+.testimonial{
+    font-family: var(--f-Barlow);
+    color: var(--c-dark-gray9); 
+    line-height: 1.6em; 
+    margin-bottom: 2rem;
+    font-size: 1.1rem; 
+}
+
+.name{
+    font-family: var(--f-Fraunces);
+    color: var(--c-dark-gray27);
+    font-size: 1.2rem; 
+    margin-bottom: 1rem; 
+}
+
+.job{
+    font-family: var(--f-Barlow);
+    color: var(--c-light-gray4); 
+    margin-bottom: 3rem; 
+}
+@media (min-width: 750px){
+    .testimonials{
+        padding: 5rem; 
+    }
+    .flexbox{
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+    }
+    .job {
+        margin: 0; 
+    }
+}

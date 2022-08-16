@@ -1,0 +1,64 @@
+@import '../../variables.css'; 
+
+.textCard {
+    padding: 3rem 1.5rem; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2rem; 
+    text-align: center; 
+}
+
+.textCard h3{
+font-family: var(--f-Fraunces); 
+font-weight: 900; 
+font-size: var(--h3); 
+color: var(--c-dark-gray27); 
+}
+
+.textCard p{
+    font-family: var(--f-Barlow); 
+    font-size: var(--p); 
+    line-height: 1.4em; 
+    color: var(--c-medium-gray10);
+    
+}
+
+.link{
+    position: relative; 
+    cursor: pointer; 
+}
+.link p{
+    font-family: var(--f-Fraunces); 
+    color: var(--c-dark-gray27); 
+    text-transform: uppercase;
+    font-weight: 900;  
+}
+
+.highlight{
+    position: absolute; 
+    z-index: -1; 
+    height: 15px; 
+    width: 55%; 
+    bottom: 6px; 
+    left: -5%; 
+    transform: translate(50%, 50%);
+    border-radius: 10px; 
+}
+
+@media (min-width: 750px) {
+    .textCard{
+        width: 50%; 
+        display: flex;
+        justify-content: center; 
+        text-align: left; 
+        padding: 5rem; 
+    }
+
+    .highlight{
+        width: 140px; 
+        left: -5px; 
+        bottom: -3px;
+        transform: translate(0%, 0%);
+    }
+    
+  }
